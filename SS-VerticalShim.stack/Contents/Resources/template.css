@@ -1,0 +1,24 @@
+%[if edit]%
+  div.ss_%id%_outer {
+    background: #fdfeda;
+    padding: 10px;
+    margin: 2px;
+    font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+    /*border: 3px groove #f2fa23;*/
+    border: 3px groove #fd6d6d;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  div.ss_%id%_inner {
+    display: %id=hideInfo%;
+  }
+%[endif]%
+
+div.ss_%id%_verticalshim {
+  height: auto;
+  padding-top: %id=VS_padding%%id=VS_units% %id=VS_important%;
+}
